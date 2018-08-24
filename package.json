@@ -1,0 +1,23 @@
+{
+    "name": "redux-todo",
+    "version": "1.0.0",
+    "description": "Redux todo",
+    "main": "index.js",
+    "devDependencies": {
+        "babel-preset-env": "^1.7.0",
+        "jest": "^23.5.0"
+    },
+    "scripts": {
+        "test": "jest --watchAll"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OskarHulter/Redux-todo.git"
+    },
+    "author": "Oskar Hulter",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/OskarHulter/Redux-todo/issues"
+    },
+    "homepage": "https://github.com/OskarHulter/Redux-todo#readme"
+}
