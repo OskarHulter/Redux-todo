@@ -25,4 +25,3 @@ const testAddTodo = () => {
 };
 
 testAddTodo();
-console.log('Well Played, Tests passing!');
