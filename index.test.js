@@ -24,4 +24,42 @@ const testAddTodo = () => {
     });
 };
 
+const testToggleTodo = () => {
+    const stateBefore = [
+        {
+            id: 0,
+            text: 'learn Redux',
+            completed: false
+        },
+        {
+            id: 1,
+            text: 'Go shoppiing',
+            completed: false
+        }
+    ];
+    const action = {
+        type: 'TOGGLE_TODO',
+        id: 1
+    };
+    const stateAfter = [
+        {
+            id: 0,
+            text: 'learn Redux',
+            completed: false
+        },
+        {
+            id: 1,
+            text: 'Go shoppiing',
+            completed: true
+        }
+    ];
+
+    deepFreeze(stateBefore);
+    deepFreeze(action);
+
+    it('Toggled completed bool on todo', () => {
+        expect(todos(stateBefore, action)).toEqual(stateAfter);
+    });
+};
 testAddTodo();
+testToggleTodo();
