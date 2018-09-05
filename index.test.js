@@ -19,7 +19,7 @@ const testAddTodo = () => {
     deepFreeze(stateBefore);
     deepFreeze(action);
 
-    test('Added todo without mutation', () => {
+    it('Added todo without mutation', () => {
         expect(todos(stateBefore, action)).toEqual(stateAfter);
     });
 };

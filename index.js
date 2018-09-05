@@ -10,7 +10,7 @@ const todos = (state = [], action) => {
                 }
             ];
         default:
-            return state;
+            return state; //return the current state in the default
     }
 };
 
