@@ -22,5 +22,8 @@
     "bugs": {
         "url": "https://github.com/OskarHulter/Redux-todo/issues"
     },
-    "homepage": "https://github.com/OskarHulter/Redux-todo#readme"
+    "homepage": "https://github.com/OskarHulter/Redux-todo#readme",
+    "dependencies": {
+        "redux": "^4.0.0"
+    }
 }

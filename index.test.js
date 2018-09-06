@@ -33,7 +33,7 @@ const testToggleTodo = () => {
         },
         {
             id: 1,
-            text: 'Go shoppiing',
+            text: 'Go shopping',
             completed: false
         }
     ];
@@ -49,7 +49,7 @@ const testToggleTodo = () => {
         },
         {
             id: 1,
-            text: 'Go shoppiing',
+            text: 'Go shopping',
             completed: true
         }
     ];
